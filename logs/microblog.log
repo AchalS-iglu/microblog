@@ -1,63 +1,35 @@
-2021-07-30 21:44:55,336 INFO: Microblog startup [in /home/iglu/repos/personal/Flask Mega Tutorial/microblog/app/__init__.py:39]
-2021-07-30 21:52:14,163 INFO: Microblog startup [in /home/iglu/repos/personal/Flask Mega Tutorial/microblog/app/__init__.py:39]
-2021-09-21 21:06:10,574 INFO: Microblog startup [in E:\Repos\personal\Flask Mega Tutorial\microblog\app\__init__.py:39]
-2021-09-23 21:41:07,075 INFO: Microblog startup [in E:\Repos\personal\Flask Mega Tutorial\microblog\app\__init__.py:39]
-2021-09-23 21:46:18,030 INFO: Microblog startup [in E:\Repos\personal\Flask Mega Tutorial\microblog\app\__init__.py:39]
-2021-09-23 21:48:17,264 INFO: Microblog startup [in E:\Repos\personal\Flask Mega Tutorial\microblog\app\__init__.py:39]
-2021-09-23 21:48:42,385 INFO: Microblog startup [in E:\Repos\personal\Flask Mega Tutorial\microblog\app\__init__.py:39]
-2021-09-23 22:18:42,804 INFO: Microblog startup [in E:\Repos\personal\Flask Mega Tutorial\microblog\app\__init__.py:39]
-2021-09-23 22:19:29,963 INFO: Microblog startup [in E:\Repos\personal\Flask Mega Tutorial\microblog\app\__init__.py:39]
-2021-09-23 22:20:18,534 INFO: Microblog startup [in E:\Repos\personal\Flask Mega Tutorial\microblog\app\__init__.py:39]
-2021-09-23 22:23:32,548 INFO: Microblog startup [in E:\Repos\personal\Flask Mega Tutorial\microblog\app\__init__.py:39]
-2021-09-23 22:23:55,515 INFO: Microblog startup [in E:\Repos\personal\Flask Mega Tutorial\microblog\app\__init__.py:39]
-2021-09-23 22:24:43,486 INFO: Microblog startup [in E:\Repos\personal\Flask Mega Tutorial\microblog\app\__init__.py:39]
-2021-09-23 22:24:47,225 INFO: Microblog startup [in E:\Repos\personal\Flask Mega Tutorial\microblog\app\__init__.py:39]
-2021-09-23 22:26:13,662 INFO: Microblog startup [in E:\Repos\personal\Flask Mega Tutorial\microblog\app\__init__.py:39]
-2021-09-23 22:30:24,555 INFO: Microblog startup [in e:\Repos\personal\Flask Mega Tutorial\microblog\app\__init__.py:39]
-2021-09-23 22:31:42,609 INFO: Microblog startup [in e:\Repos\personal\Flask Mega Tutorial\microblog\app\__init__.py:39]
-2021-09-23 22:32:45,851 INFO: Microblog startup [in E:\Repos\personal\Flask Mega Tutorial\microblog\app\__init__.py:39]
-2021-09-23 22:37:21,102 INFO: Microblog startup [in E:\Repos\personal\Flask Mega Tutorial\microblog\app\__init__.py:39]
-2021-09-23 22:39:28,909 INFO: Microblog startup [in E:\Repos\personal\Flask Mega Tutorial\microblog\app\__init__.py:39]
-2021-09-23 22:42:13,854 INFO: Microblog startup [in E:\Repos\personal\Flask Mega Tutorial\microblog\app\__init__.py:39]
-2021-09-23 22:42:21,539 INFO: Microblog startup [in E:\Repos\personal\Flask Mega Tutorial\microblog\app\__init__.py:39]
-2021-09-23 22:42:28,316 INFO: Microblog startup [in E:\Repos\personal\Flask Mega Tutorial\microblog\app\__init__.py:39]
-2021-09-23 22:58:37,892 INFO: Microblog startup [in E:\Repos\personal\Flask Mega Tutorial\microblog\app\__init__.py:39]
-2021-09-23 23:23:37,133 INFO: Microblog startup [in E:\Repos\personal\Flask Mega Tutorial\microblog\app\__init__.py:39]
-2021-09-23 23:23:53,060 ERROR: Exception on / [GET] [in E:\Repos\personal\Flask Mega Tutorial\microblog\venv\lib\site-packages\flask\app.py:1454]
+2021-09-27 20:53:21,245 ERROR: Exception on /reset_password_request [POST] [in E:\Repos\personal\Flask Mega Tutorial\venv\lib\site-packages\flask\app.py:1454]
 Traceback (most recent call last):
-  File "E:\Repos\personal\Flask Mega Tutorial\microblog\venv\lib\site-packages\flask\app.py", line 2070, in wsgi_app
+  File "E:\Repos\personal\Flask Mega Tutorial\venv\lib\site-packages\flask\app.py", line 2070, in wsgi_app
     response = self.full_dispatch_request()
-  File "E:\Repos\personal\Flask Mega Tutorial\microblog\venv\lib\site-packages\flask\app.py", line 1515, in full_dispatch_request
+  File "E:\Repos\personal\Flask Mega Tutorial\venv\lib\site-packages\flask\app.py", line 1515, in full_dispatch_request
     rv = self.handle_user_exception(e)
-  File "E:\Repos\personal\Flask Mega Tutorial\microblog\venv\lib\site-packages\flask\app.py", line 1513, in full_dispatch_request
+  File "E:\Repos\personal\Flask Mega Tutorial\venv\lib\site-packages\flask\app.py", line 1513, in full_dispatch_request
     rv = self.dispatch_request()
-  File "E:\Repos\personal\Flask Mega Tutorial\microblog\venv\lib\site-packages\flask\app.py", line 1499, in dispatch_request
+  File "E:\Repos\personal\Flask Mega Tutorial\venv\lib\site-packages\flask\app.py", line 1499, in dispatch_request
     return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
-  File "E:\Repos\personal\Flask Mega Tutorial\microblog\venv\lib\site-packages\flask_login\utils.py", line 272, in decorated_view
-    return func(*args, **kwargs)
-  File "E:\Repos\personal\Flask Mega Tutorial\microblog\app\routes.py", line 21, in index
-    return render_template('index.html', title='Home', form=form, posts=posts)
-  File "E:\Repos\personal\Flask Mega Tutorial\microblog\venv\lib\site-packages\flask\templating.py", line 147, in render_template
-    return _render(
-  File "E:\Repos\personal\Flask Mega Tutorial\microblog\venv\lib\site-packages\flask\templating.py", line 128, in _render
-    rv = template.render(context)
-  File "E:\Repos\personal\Flask Mega Tutorial\microblog\venv\lib\site-packages\jinja2\environment.py", line 1304, in render
-    self.environment.handle_exception()
-  File "E:\Repos\personal\Flask Mega Tutorial\microblog\venv\lib\site-packages\jinja2\environment.py", line 925, in handle_exception
-    raise rewrite_traceback_stack(source=source)
-  File "E:\Repos\personal\Flask Mega Tutorial\microblog\app\templates\index.html", line 1, in top-level template code
-    {% extends "base.html" %}
-  File "E:\Repos\personal\Flask Mega Tutorial\microblog\app\templates\base.html", line 13, in top-level template code
-    <a href="{{ url_for('explore') }}">Explore</a>
-  File "E:\Repos\personal\Flask Mega Tutorial\microblog\venv\lib\site-packages\flask\helpers.py", line 338, in url_for
-    return appctx.app.handle_url_build_error(error, endpoint, values)
-  File "E:\Repos\personal\Flask Mega Tutorial\microblog\venv\lib\site-packages\flask\helpers.py", line 325, in url_for
-    rv = url_adapter.build(
-  File "E:\Repos\personal\Flask Mega Tutorial\microblog\venv\lib\site-packages\werkzeug\routing.py", line 2305, in build
-    raise BuildError(endpoint, values, method, self)
-werkzeug.routing.BuildError: Could not build url for endpoint 'explore'. Did you mean 'edit_profile' instead?
-2021-09-23 23:30:18,836 INFO: Microblog startup [in E:\Repos\personal\Flask Mega Tutorial\microblog\app\__init__.py:39]
-2021-09-23 23:41:14,917 INFO: Microblog startup [in E:\Repos\personal\Flask Mega Tutorial\microblog\app\__init__.py:39]
-2021-09-23 23:48:58,711 INFO: Microblog startup [in E:\Repos\personal\Flask Mega Tutorial\microblog\app\__init__.py:39]
-2021-09-23 23:49:39,388 INFO: Microblog startup [in E:\Repos\personal\Flask Mega Tutorial\microblog\app\__init__.py:39]
-2021-09-23 23:55:25,258 INFO: Microblog startup [in E:\Repos\personal\Flask Mega Tutorial\microblog\app\__init__.py:39]
+  File "E:\Repos\personal\Flask Mega Tutorial\microblog\app\routes.py", line 160, in reset_password_request
+    send_password_reset_email(user)
+  File "E:\Repos\personal\Flask Mega Tutorial\microblog\app\email.py", line 12, in send_password_reset_email
+    token = user.get_reset_password_token()
+  File "E:\Repos\personal\Flask Mega Tutorial\microblog\app\models.py", line 55, in get_reset_password_token
+    return jwt.encode({'reset_password': self.id, 'exp': time() + expires_in},
+AttributeError: 'str' object has no attribute 'decode'
+2021-09-27 20:53:27,294 ERROR: Exception on /reset_password_request [POST] [in E:\Repos\personal\Flask Mega Tutorial\venv\lib\site-packages\flask\app.py:1454]
+Traceback (most recent call last):
+  File "E:\Repos\personal\Flask Mega Tutorial\venv\lib\site-packages\flask\app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "E:\Repos\personal\Flask Mega Tutorial\venv\lib\site-packages\flask\app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "E:\Repos\personal\Flask Mega Tutorial\venv\lib\site-packages\flask\app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "E:\Repos\personal\Flask Mega Tutorial\venv\lib\site-packages\flask\app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "E:\Repos\personal\Flask Mega Tutorial\microblog\app\routes.py", line 160, in reset_password_request
+    send_password_reset_email(user)
+  File "E:\Repos\personal\Flask Mega Tutorial\microblog\app\email.py", line 12, in send_password_reset_email
+    token = user.get_reset_password_token()
+  File "E:\Repos\personal\Flask Mega Tutorial\microblog\app\models.py", line 55, in get_reset_password_token
+    return jwt.encode({'reset_password': self.id, 'exp': time() + expires_in},
+AttributeError: 'str' object has no attribute 'decode'
+2021-09-27 20:53:56,964 INFO: Microblog startup [in E:\Repos\personal\Flask Mega Tutorial\microblog\app\__init__.py:41]
