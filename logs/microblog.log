@@ -33,3 +33,7 @@ Traceback (most recent call last):
     return jwt.encode({'reset_password': self.id, 'exp': time() + expires_in},
 AttributeError: 'str' object has no attribute 'decode'
 2021-09-27 20:53:56,964 INFO: Microblog startup [in E:\Repos\personal\Flask Mega Tutorial\microblog\app\__init__.py:41]
+2021-09-27 21:24:51,974 INFO: Microblog startup [in E:\Repos\personal\Flask Mega Tutorial\microblog\app\__init__.py:43]
+2021-09-27 21:25:41,909 INFO: Microblog startup [in E:\Repos\personal\Flask Mega Tutorial\microblog\app\__init__.py:43]
+2021-09-27 21:26:12,113 INFO: Microblog startup [in E:\Repos\personal\Flask Mega Tutorial\microblog\app\__init__.py:43]
+2021-09-27 21:26:32,613 INFO: Microblog startup [in E:\Repos\personal\Flask Mega Tutorial\microblog\app\__init__.py:43]

@@ -137,7 +137,7 @@ def unfollow(username):
     else:
         return redirect(url_for('index'))
 
-@app.route('/expore')
+@app.route('/explore')
 @login_required
 def explore():
     page = request.args.get('page', 1, type=int)
