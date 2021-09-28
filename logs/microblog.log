@@ -102,3 +102,13 @@ Traceback (most recent call last):
     return request.accept_languages.best_match(app.config['LANGUAGES'])
 AttributeError: 'Request' object has no attribute 'accept_langugaes'
 2021-09-27 22:45:08,476 INFO: Microblog startup [in E:\Repos\personal\Flask Mega Tutorial\microblog\app\__init__.py:47]
+2021-09-28 19:51:46,244 INFO: Microblog startup [in E:\Repos\personal\Flask Mega Tutorial\microblog\app\__init__.py:47]
+2021-09-28 19:51:58,332 INFO: Microblog startup [in E:\Repos\personal\Flask Mega Tutorial\microblog\app\__init__.py:47]
+2021-09-28 20:09:58,955 INFO: Microblog startup [in E:\Repos\personal\Flask Mega Tutorial\microblog\app\__init__.py:47]
+2021-09-28 20:10:05,820 INFO: Microblog startup [in E:\Repos\personal\Flask Mega Tutorial\microblog\app\__init__.py:47]
+2021-09-28 20:31:45,236 INFO: Microblog startup [in E:\Repos\personal\Flask Mega Tutorial\microblog\app\__init__.py:47]
+2021-09-28 20:34:01,932 INFO: Microblog startup [in E:\Repos\personal\Flask Mega Tutorial\microblog\app\__init__.py:47]
+2021-09-28 20:34:31,421 INFO: Microblog startup [in E:\Repos\personal\Flask Mega Tutorial\microblog\app\__init__.py:47]
+2021-09-28 20:42:24,326 INFO: Microblog startup [in E:\Repos\personal\Flask Mega Tutorial\microblog\app\__init__.py:47]
+2021-09-28 20:44:30,760 INFO: Microblog startup [in E:\Repos\personal\Flask Mega Tutorial\microblog\app\__init__.py:47]
+2021-09-28 20:44:39,590 INFO: Microblog startup [in E:\Repos\personal\Flask Mega Tutorial\microblog\app\__init__.py:47]
